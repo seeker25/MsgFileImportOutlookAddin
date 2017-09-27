@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+        <group id="MyGroup">
+          <button id="textButton" size="large" label="Import .msg file"
+             screentip="Text" onAction="LoadFromMsgFile"
+                     getImage="GetImage"
+             supertip="Imports sendable .msg files. "/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
